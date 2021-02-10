@@ -48,6 +48,47 @@ fecha: Diciembre 2020
 			object-fit:cover;
 		}
 		
+		#navbar {
+	position: fixed;
+	min-width: 290px;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 100%;
+	border-right: solid;
+	border-color: rgba(0, 22, 22, 0.4);
+}
+		
+		#navega #menu #fijo { 
+		position:fixed; 
+		font-family:verdana,arial; 
+        font-size:11pt; 
+        text-align:center; 
+        padding: 10px 5px 10px 5px;    /* margen con valores: arriba - derecha - abajo - izquierda */  
+        top: 0px;                    /* Distancia hasta el borde superior */ 
+		left: 0px;            /* Distancia hasta el borde izquierdo */
+        width:100%; 
+        background-color:#FCAF62;  
+        z-index: 1;               /* hace que la capa sea opaca  */ 
+} 
+
+		#texto { 
+			position:absolute; 
+			margin: 20px 5px 10px 5px;    /* margen con valores: arriba - derecha - abajo - izquierda */  
+			font-family:verdana,arial; 
+			font-size:10pt; 
+} 
+--> 
+		
+		.header {
+		background: red;
+		position:sticky;
+		color: black;
+		margin: 10px;
+		text-align: center;
+		font-weight: thin;
+}
+		
 	</style>
 	
 	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
@@ -66,9 +107,11 @@ fecha: Diciembre 2020
 <body>
 
 	<!-- cabecera de pagina -->
-	<header>
+	<header class="header" id="navega">
+	<div>
 		<h1>AJUSTE DE TEXTO ALREDEDOR DE IMAGENES</h1>
 		<br/>
+		<div/>
 	</header>
 	
 	<!-- bloque de contenido de la pagina -->
