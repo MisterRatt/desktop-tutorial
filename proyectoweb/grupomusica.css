@@ -186,3 +186,26 @@ div#red{
 div#red img{
     width: 140px ;
 }
+
+.pie {
+    background-color: #d3dff0;
+    color: #838086;
+}
+
+.pie p {
+    text-align: right;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-right: 4px;
+}
+
+.logo {
+    float: left;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+
+.datos {
+    float: right;
+    padding-top: 5px;
+}
