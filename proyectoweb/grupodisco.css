@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-image: url(images/grup/musicafondo.jpg) ;
+	background-attachment: fixed ;
+    background-size: cover ;
+    margin: 0px;
+}
+/*Banner de la página--------------------*/
+div#banner {
+    width: 550px ;
+    margin: 0 auto;
+}
+/*Fin del banner de la página*/
+/*Menú-----------------------------------*/
+body {
+    font-size: 28px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+/*Fin del Menú----------------------------*/
+/*Contenido de la página------------------*/
+div#contenedor {
+    background-color: #CCCCCC ;
+    width: 1000px ;
+    margin: 5px auto ;
+    border-radius: 2px ;
+	box-shadow: 1px 1px 10px;
+	position: relative ;
+    z-index: 1 ;
+}
+/*posible fin del copiado para todos los html*/
+div#contenedor div{
+    width: 900px ;
+    margin: 0px auto ;
+    padding: 20px 0px ;
+    position: relative ;
+}
+div#contenedor div span.head{
+    font-family: 'Special Elite', cursive ;
+    font-size: 34px ;
+    color: #FFFFFF ;
+    position: absolute ;
+}
+div#contenedor div.izq img{
+    width: 400px ;
+    height: 400px;
+    padding-top: 40px ;
+    z-index: 5 ;
+}
+div#contenedor div.izq div.crit{
+    position: absolute;
+    width: 445px ;
+    padding: 0px ;
+    top: 70px ;
+    left: 440px ;
+    font-family: 'Metamorphous', cursive ;
+    font-size: 32px ;
+    display: inline ;
+    z-index: 5 ;
+}
+div#contenedor div div p{
+    margin: 0px ;
+    text-align: justify ;
+}
+div#contenedor div.izq div div.display{
+    position: absolute ;
+    width: 262px ;
+    top: 325px ;
+    padding: 0px ;
+}
+div#contenedor div div div a{
+    text-decoration: none ;
+    color: #4C0000 ;
+}
+div#contenedor div.izq div div img{
+    display: none ;
+    width: 80px ;
+    height: 80px ;
+    padding: 0px ;
+    position: absolute ;
+    bottom: -20px ;
+    left: 255px ;
+}
+div#contenedor div div a:hover{
+    color:#4F4F4F ;
+}
+div#contenedor div div.display:hover img{
+    display: block ;
+}
+div#contenedor div img.back{
+    width: 900px ;
+    height: 400px ;
+    padding: 0px ;
+    position: absolute ;
+    top: 60px ;
+    right: 0px ;
+    z-index: -1 ;
+}
+div#contenedor div.der img{
+    width: 400px ;
+    height: 400px ;
+    padding-top: 40px ;
+    padding-left: 500px ;
+    z-index: 5 ;
+}
+div#contenedor div.der div.crit{
+    position: absolute;
+    width: 445px ;
+    padding: 0px ;
+    top: 70px ;
+    left: 20px ;
+    font-family: 'Metamorphous', cursive ;
+    font-size: 32px ;
+    display: inline ;
+    z-index: 5 ;
+}
+div#contenedor div.der div.crit span{
+    float: right ;
+}
+div#contenedor div.der div div.display{
+    position: absolute ;
+    width: 262px ;
+    top: 325px ;
+    left: 185px ;
+    padding: 0px ;
+}
+div#contenedor div.der div div img{
+    display: none ;
+    width: 80px ;
+    height: 80px ;
+    padding: 0px ;
+    position: absolute ;
+    bottom: -20px ;
+    left: -75px ;
+}
+div#contenedor div.der img.back{
+    width: 900px ;
+    padding: 0px ;
+    z-index: -1 ;
+}

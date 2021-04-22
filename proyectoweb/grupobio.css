@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-image: url(images/grup/musicafondo.jpg) ;
+	background-attachment: fixed ;
+    background-size: cover ;
+    margin: 0px;
+}
+/*Banner de la página--------------------*/
+div#banner {
+    width: 550px ;
+    margin: 0 auto;
+}
+/*Fin del banner de la página*/
+/*Menú-----------------------------------*/
+body {
+    font-size: 28px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+/*Fin del Menú----------------------------*/
+/*Contenido de la página------------------*/
+div#contenedor {
+    background-color: #CCCCCC ;
+    width: 1000px ;
+    margin: 5px auto ;
+    border-radius: 2px ;
+	box-shadow: 1px 1px 10px;
+	position: relative ;
+}
+/*posible fin del copiado para todos los html*/
+div#hist{
+    position: relative ;
+}
+div#cabeza1 {
+    padding-top: 10px ;
+    width: 132px ;
+    font-family: 'Special Elite', cursive ;
+    margin: 0 auto ;
+    margin-bottom: 0px ;
+}
+div#cabeza1 h2 {
+margin: 5px 0px;
+color: #FFFFFF;
+}
+div#bio{
+    width: 900px ;
+    padding: 10px 30px ;
+    margin: 10px auto ;
+    background-color: #EEEEEE ;
+}
+div#bio p {
+    margin: 5px 0px ;
+    font-family: "Trebuchet MS", Helvetica, sans-seriff ;
+    text-align: justify ;
+}
+div#imgh{
+    position: absolute ;
+    bottom: 0px ;
+    left: 52px ;
+    opacity: 0.2 ;
+}
+div#cabeza2 {
+    padding-top: 5px ;
+    width: 164px ;
+    font-family: 'Special Elite', cursive ;
+    margin: 0 auto ;
+    margin-bottom: 0px ;
+}
+div#cabeza2 h2 {
+margin: 5px 0px;
+color: #FFFFFF;
+}
+div#componentes{
+	overflow: hidden ;
+    width: 900px ;
+	margin: 10px auto ;
+	margin-bottom: 0px ;
+}
+div#componentes div{
+    float: left ;
+	width: 176px ;
+	margin-left: 4px ;
+}
+div#componentes div p{
+	font-family: 'Metamorphous', cursive;
+	margin: 5px 0px ;
+	padding: 0px ;
+	font-size: 24px ;
+	text-align: center ;
+	float: none ;
+}
+div#componentes div#mencion{
+	width: 900px ;
+	margin: 10px 0px ;
+	position: relative ;
+}
+div#componentes div#mencion div#rev{
+	float: left ;
+	width: 400px ;
+}
+div#componentes div#mencion  div#text{
+	width: 412px ;
+	position: absolute ;
+	top: 55px ;
+	left: 470px ;
+}
+div#componentes div#mencion  div#text p{
+	text-align: justify ;
+}
+div#componentes div#mencion  div#rip{
+	width: 412px ;
+	position: absolute ;
+	top: 200px ;
+	left: 470px ;
+}
+div#cabeza3 {
+    padding-top: 10px ;
+    width: 104px ;
+    font-family: 'Special Elite', cursive ;
+    margin: 0 auto ;
+    margin-bottom: 0px ;
+}
+div#cabeza3 h2 {
+margin: 5px 0px;
+color: #FFFFFF;
+}
+div#galeria{
+	position: relative ;
+	width: 900px ;
+	margin: 5px auto ;
+	padding: 5px 0px ;
+}
+div#galeria img.uno{
+	float: left ;
+	width: 300px ;
+	height: 191px ;
+}
+div#galeria img#dos{
+	position: absolute ;
+	width: 125px ;
+	height: 210px ;
+	right: 545px ;
+	top: 185px ;
+	z-index: 1 ;
+	border-radius: 5px ;
+}
+div#galeria img#tres{
+	position: absolute ;
+	width: 175px ;
+	right: 240px ;
+	top: 110px ;
+	border-radius: 5px ;
+	z-index: 1 ;
+}
+div#galeria img#cuat{
+	position: absolute ;
+	width: 150px ;
+	right: 242px ;
+	top: 345px ;
+	border-radius: 5px ;
+	z-index: 1 ;
+}

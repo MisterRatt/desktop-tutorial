@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-image: url(images/grup/fondomuse.jpg) ;
+	background-attachment: fixed ;
+    background-size: cover ;
+    margin: 0px;
+}
+/*Banner de la página--------------------*/
+div#banner {
+    width: 550px ;
+    margin: 0 auto;
+}
+/*Fin del banner de la página*/
+/*Menú-----------------------------------*/
+body {
+    font-size: 28px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+/*Fin del Menú----------------------------*/
+/*Contenido de la página------------------*/
+div#contenedor {
+    background-color: #CCCCCC ;
+    width: 1000px ;
+    margin: 5px auto ;
+    border-radius: 2px ;
+	box-shadow: 1px 1px 10px;
+	position: relative ;
+}
+/*posible fin del copiado para todos los html*/
+div#cabeza1 {
+    padding-top: 10px ;
+    width: 164px ;
+    font-family: 'Special Elite', cursive ;
+    margin: 0 auto ;
+    margin-bottom: 0px ;
+}
+div#cabeza1 h2 {
+    margin: 5px 0px ;
+    color: #FFFFFF ;
+}
+div#estr1 {
+    padding-top: 10px ;
+    margin: 0px 20px ;
+}
+div#estr1 img {
+    float: left ;
+}
+div#hist {
+    width: 520px ;
+    padding: 0px 29px ;
+    float: left ;
+    border: solid 1px ;
+    background-color: #EEEEEE ;
+}
+div#hist p {
+    margin: 5px 0px ;
+    font-size: 14px ;
+    font-family: "Trebuchet MS", Helvetica, sans-seriff ;
+    text-align: justify ;
+}
+div#estr2{
+	padding: 5px 0px ;
+}
+div#lanz {
+	width: 460px ;
+	float: left ;
+    padding-top: 10px ;
+    margin: 0px 20px ;
+}
+div#cabeza2 {
+    padding-top: 10px ;
+    width: 263px ;
+    font-family: 'Special Elite', cursive ;
+    margin: 0 auto ;
+    margin-bottom: 0px ;
+}
+div#cabeza2 h2 {
+    margin: 5px 0px ;
+    color: #FFFFFF ;
+}
+div#lanz img {
+	padding-top: 10px ;
+}
+div#lanz iframe{
+    padding-top: 10px ;
+}
+div#tour{
+	width: 460px ;
+	float: left ;
+    padding-top: 10px ;
+    margin: 0px 20px ;
+	position: relative ;
+}
+div#death{
+	width: 200px ;
+	position: absolute ;
+	left: 125px ;
+	top: 105px ;
+	opacity: 0.2 ;
+}
+div#cabeza3 {
+    padding-top: 10px ;
+    width: 273px ;
+    font-family: 'Special Elite', cursive ;
+    margin: 0 auto ;
+    margin-bottom: 0px ;
+}
+div#cabeza3 h2 {
+    margin: 5px 0px ;
+    color: #FFFFFF ;
+}
+div#conciertos {
+	margin-top: 15px ;
+	background-color: #EEEEEE ;
+}
+div#conciertos div{
+	padding: 5px ;
+}
+div#prim{
+	font-family: 'Metamorphous', cursive ;
+	color: #FFFFFF ;
+	background-color: #7A7A7A ;
+}
+div.spans{
+	font-family: "Trebuchet MS", Helvetica, sans-seriff ;
+}
+div#conciertos div span.uno{
+	padding-left: 20px ;
+	display: inline-block ;
+	width: 163px ;
+}
+div#conciertos div span.dos{
+	padding-left: 15px ;
+}
+div#arm{
+	position: absolute ;
+	left: 760px ;
+	bottom: 0px ;
+	z-index: 10 ;
+}
+div#cabeza4 {
+    padding-top: 10px ;
+    width: 193px ;
+    font-family: 'Special Elite', cursive ;
+    margin: 0px 40px ;
+    margin-bottom: 0px ;
+}
+div#cabeza4 h2 {
+    margin: 10px 0px ;
+    color: #FFFFFF ;
+}
+div#red{
+    width: 133px ;
+    margin-left: 60px;
+}
+div#red img{
+    width: 140px ;
+}
