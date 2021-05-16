@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registrados xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/cris_/Downloads/proyectoweb/registrados.xsd">
+  <usuario id="1">
+    <nombre>USR1</nombre>
+    <clave>CLAVE1</clave>
+  </usuario>
+  <usuario id="2">
+    <nombre>USR2 </nombre>
+    <clave>CLAVE2</clave>
+  </usuario>
+  <usuario id="3">
+    <nombre>USR3 </nombre>
+    <clave>CLAVE3</clave>
+  </usuario>
+  <usuario id="4">
+    <nombre>USR4</nombre>
+    <clave>CLAVE4</clave>
+  </usuario>
+  <usuario id="5">
+    <nombre>Christian</nombre>
+    <clave>Garcia</clave>
+  </usuario>
+</registrados>
