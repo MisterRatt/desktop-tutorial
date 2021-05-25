@@ -1,14 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-    background-image: url(images/grup/musicafondo.jpg) ;
+    background-image: url(images/grup/fondomuse.jpg) ;
 	background-attachment: fixed ;
     background-size: cover ;
     margin: 0px;
 }
 /*Banner de la página--------------------*/
 div#banner {
-    width: 550px ;
+    width: 1000px ;
     margin: 0 auto;
 }
 /*Fin del banner de la página*/
@@ -65,7 +65,7 @@ div#contenedor div{
     position: relative ;
 }
 div#contenedor div span.head{
-    font-family: 'Special Elite', cursive ;
+    font-family: 'Courier New', cursive ;
     font-size: 34px ;
     color: #FFFFFF ;
     position: absolute ;
@@ -82,9 +82,10 @@ div#contenedor div.izq div.crit{
     padding: 0px ;
     top: 70px ;
     left: 440px ;
-    font-family: 'Metamorphous', cursive ;
+    font-family: 'Candara', cursive ;
     font-size: 32px ;
     display: inline ;
+    color:aliceblue;
     z-index: 5 ;
 }
 div#contenedor div div p{
@@ -99,7 +100,7 @@ div#contenedor div.izq div div.display{
 }
 div#contenedor div div div a{
     text-decoration: none ;
-    color: #4C0000 ;
+    color: #94c1eb ;
 }
 div#contenedor div.izq div div img{
     display: none ;
@@ -138,9 +139,10 @@ div#contenedor div.der div.crit{
     padding: 0px ;
     top: 70px ;
     left: 20px ;
-    font-family: 'Metamorphous', cursive ;
+    font-family: 'Candara', cursive ;
     font-size: 32px ;
     display: inline ;
+    color:aliceblue;
     z-index: 5 ;
 }
 div#contenedor div.der div.crit span{
@@ -167,3 +169,76 @@ div#contenedor div.der img.back{
     padding: 0px ;
     z-index: -1 ;
 }
+
+.pie {
+    background-color: #d3dff0;
+    color: #000000;
+}
+
+.pie p {
+    text-align: right;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-right: 4px;
+}
+
+.logo {
+    float: left;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+
+.datos {
+    float: right;
+    padding-top: 5px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1060px;
+    background: #000;
+    overflow: hidden;
+    margin: 25px auto;
+    position: relative;
+    height: 300px;
+  }
+.container:hover .background {
+    -webkit-transform: scale(0.8) translate(-50%, -50%);
+        -ms-transform: scale(0.8) translate(-50%, -50%);
+            transform: scale(0.8) translate(-50%, -50%);
+  }
+  .container:hover .front {
+    -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+  
+  .background {
+    top: 50%;
+    left: 13%;
+    width: 600px;
+    height: 900px;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-transform-origin: top left;
+        -ms-transform-origin: top left;
+            transform-origin: top left;
+    -webkit-transition: -webkit-transform 1s;
+            transition: transform 1s;
+  }
+  
+  .front {
+    top: 1%;
+    left: 10%;
+    width: 600px;
+    height: 900px;
+    z-index: 1;
+    position: absolute;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition: -webkit-transform 1s;
+            transition: transform 1s;
+  }

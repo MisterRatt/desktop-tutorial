@@ -61,7 +61,7 @@ div#contenedor {
 div#cabeza1 {
     padding-top: 10px ;
     width: 164px ;
-    font-family: 'Special Elite', cursive ;
+    font-family: 'Courier New', cursive ;
     margin: 0 auto ;
     margin-bottom: 0px ;
 }
@@ -77,7 +77,7 @@ div#estr1 img {
     float: left ;
 }
 div#hist {
-    width: 520px ;
+    width: 900px ;
     padding: 0px 29px ;
     float: left ;
     border: solid 1px ;
@@ -101,7 +101,7 @@ div#lanz {
 div#cabeza2 {
     padding-top: 10px ;
     width: 263px ;
-    font-family: 'Special Elite', cursive ;
+    font-family: 'Candara', cursive ;
     margin: 0 auto ;
     margin-bottom: 0px ;
 }
@@ -132,7 +132,7 @@ div#death{
 div#cabeza3 {
     padding-top: 10px ;
     width: 273px ;
-    font-family: 'Special Elite', cursive ;
+    font-family: 'Candara', cursive ;
     margin: 0 auto ;
     margin-bottom: 0px ;
 }
@@ -148,7 +148,7 @@ div#conciertos div{
 	padding: 5px ;
 }
 div#prim{
-	font-family: 'Metamorphous', cursive ;
+	font-family: 'Candara', cursive ;
 	color: #FFFFFF ;
 	background-color: #7A7A7A ;
 }
@@ -172,7 +172,7 @@ div#arm{
 div#cabeza4 {
     padding-top: 10px ;
     width: 193px ;
-    font-family: 'Special Elite', cursive ;
+    font-family: 'Candara', cursive ;
     margin: 0px 40px ;
     margin-bottom: 0px ;
 }
@@ -190,7 +190,7 @@ div#red img{
 
 .pie {
     background-color: #d3dff0;
-    color: #838086;
+    color: #000000;
 }
 
 .pie p {
@@ -277,3 +277,55 @@ div#red img{
       display: block;
         margin-top: 12px;
     }
+    .image-wrap {
+        width: 100%;
+        height: 50vw;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+      }
+      
+      .image-wrap img {
+        width: 100%;
+        animation: move infinite ease;
+        -moz-animation: move 40s ease;
+        position: absolute;
+        -ms-animation: move 40s ease;
+        -webkit-animation: move 40s ease;
+      }
+      
+      @keyframes move {
+        0% {
+          -webkit-transform-origin: bottom left;
+          -moz-transform-origin: bottom left;
+          -ms-transform-origin: bottom left;
+          -o-transform-origin: bottom left;
+          transform-origin: bottom left;
+          transform: scale(1.0);
+          -ms-transform: scale(1.0);
+          /* IE 9 */
+          
+          -webkit-transform: scale(1.0);
+          /* Safari and Chrome */
+          
+          -o-transform: scale(1.0);
+          /* Opera */
+          
+          -moz-transform: scale(1.0);
+          /* Firefox */
+        }
+        100% {
+          transform: scale(1.2);
+          -ms-transform: scale(1.2);
+          /* IE 9 */
+          
+          -webkit-transform: scale(1.2);
+          /* Safari and Chrome */
+          
+          -o-transform: scale(1.2);
+          /* Opera */
+          
+          -moz-transform: scale(1.2);
+          /* Firefox */
+        }
+      }

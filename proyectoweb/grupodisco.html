@@ -2,114 +2,151 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="grupodisco.css">
-    <link href='https://fonts.googleapis.com/css?family=Metamorphous' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Candara' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Courier+New' rel='stylesheet' type='text/css'>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>A7X</title>
+    <title>M U S E</title>
 </head>
 <body>
     <div id="nav">
         <ul>
-            <li><a href="gruposmusica.html">Home</a></li>
-            <li><a href="gruposbio.html">Biograf&iacute;a</a></li>
-            <li><a href="grupodisco.html">Discograf&iacute;a</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="grupodisco.html">Discos Dolly</a></li>
+            <li><a >Biografía</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a id="desconectar" onclick="desconectar()">Desconectar</a></li>
         </ul>
     </div>
     <div id="banner">
-        <img src="images/grup/muse-logo.jpg" width="550px" />
+        <div class="container">
+            <div class="front"><img src="images/grup/muselogotransparente.png" alt="baby" /></div>
+            <div class="background"><img src="images/grup/muse1.jpg" alt="" /></div>
+          </div>
     </div>
     <div id="contenedor">
         <div id="SST" class="izq">
-            <span class="head">Sounding the Seventh Trumpet (2001)</span>
-            <img src="images/grup/SST.jpeg" />
+            <span class="head">Showbiz</span>
+            <img src="images/grup/showbiz.jpg" />
             <div class="crit">
                 <p>"Un impacto increible, a la vez que letal al oyente" -AllMusic<br/><br/>
                 3/5 - AllMusic<br/><br/>
                 4/5 - Sputnik Music</p>
                 <div class="display">
-                    <a href="https://itunes.apple.com/es/album/sounding-the-seventh-trumpet/id487577603" target="_blank">Comprar disco</a>
-                    <img src="images/grup/death.png">
+                    <a href="https://store.muse.mu/es/showbiz-cd.html" target="_blank">Comprar disco</a>
                 </div>
             </div>
-            <img class="back" src="images/grup/back.jpg" />
+            <img class="back" src="images/grup/discos.jpg" />
             <div style="clear:both ; padding: 0px"></div>
         </div>
         <div id="WF" class="der">
-            <span class="head">Waking the Fallen (2003)</span>
-            <img src="images/grup/WF.jpg" />
+            <span class="head">Origin of Symmetry</span>
+            <img src="images/grup/origin.jpg" />
             <div class="crit">
                 <p>"La banda entrega agresi&oacute;n y precisi&oacute;n incansable" -AllMusic<br/><br/>
                 <span>3.5/5 - AllMusic</span><br/><br/>
                     <span>4/5 - Kerrang!</span></p>
                 <div class="display">
-                    <a href="https://itunes.apple.com/us/album/waking-the-fallen/id487468572" target="_blank">Comprar disco</a>
-                    <img src="images/grup/death.png">
+                    <a href="https://store.muse.mu/es/origin-of-symmetry.html" target="_blank">Comprar disco</a>
                 </div>
             </div>
-            <img class="back" src="images/grup/back.jpg" />
+            <img class="back" src="images/grup/discos.jpg" />
             <div style="clear:both ; padding: 0px"></div>
         </div>
         <div id="CE" class="izq">
-            <span class="head">City of Evil (2005)</span>
-            <img src="images/grup/CE.jpg" />
+            <span class="head">Absolution</span>
+            <img src="images/grup/absolution.jpg" />
             <div class="crit">
                 <p>"Lo han echo a su manera, ¿quién se puede quejar?" -Metal Hammer<br/><br/>
                 8/10 - Metal Hammer<br/><br/>
                 4.5/5 - Sputnik Music</p>
                 <div class="display">
-                    <a href="https://itunes.apple.com/us/album/city-of-evil/id65621096" target="_blank">Comprar disco</a>
-                    <img src="images/grup/death.png">
+                    <a href="https://store.muse.mu/es/music/albums/absolution/absolution.html" target="_blank">Comprar disco</a>
                 </div>
             </div>
-            <img class="back" src="images/grup/back.jpg" />
+            <img class="back" src="images/grup/discos.jpg" />
             <div style="clear:both ; padding: 0px"></div>
         </div>
         <div id="A7X" class="der">
-            <span class="head">Avenged Sevenfold (2007)</span>
-            <img src="images/grup/A7X.jpg" />
+            <span class="head">Black Holes and Revelations</span>
+            <img src="images/grup/blackholes.jpg" />
             <div class="crit">
                 <p>"No es tan bueno, pero querer experimentar es admirable" -AllMusic<br/><br/>
                 <span>3/5 - AllMusic</span><br/><br/>
                 <span>4/5 - Kerrang!</span></p>
                 <div class="display">
-                    <a href="https://itunes.apple.com/es/album/avenged-sevenfold/id266023781" target="_blank">Comprar disco</a>
-                    <img src="images/grup/death.png">
+                    <a href="https://store.muse.mu/es/music/albums/black-holes-and-revelations-cd.html" target="_blank">Comprar disco</a>
                 </div>
             </div>
-            <img class="back" src="images/grup/back.jpg" />
+            <img class="back" src="images/grup/discos.jpg" />
             <div style="clear:both ; padding: 0px"></div>
         </div>
         <div id="NM" class="izq">
-            <span class="head">Nightmare (2010)</span>
-            <img src="images/grup/NM.jpg" />
+            <span class="head">The Resistance</span>
+            <img src="images/grup/theresistance.jpg" />
             <div class="crit">
                 <p>"El tributo definitivo para un amigo caido"<br/> -Metal Hammer<br/><br/>
                 8/10 - Metal Hammer<br/><br/>
                 4/5 - Kerrang!</p>
                 <div class="display">
-                    <a href="https://itunes.apple.com/us/album/nightmare-deluxe-version/id379320560" target="_blank">Comprar disco</a>
-                    <img src="images/grup/death.png">
+                    <a href="https://store.muse.mu/es/music/albums/the-resistance/the-resistance-cd.html" target="_blank">Comprar disco</a>
                 </div>
             </div>
-            <img class="back" src="images/grup/back.jpg" />
+            <img class="back" src="images/grup/discos.jpg" />
             <div style="clear:both ; padding: 0px"></div>
         </div>
         <div id="HK" class="der">
-            <span class="head">Hail to the King (2013)</span>
-            <img src="images/grup/hail.jpg" />
+            <span class="head">The 2nd Law</span>
+            <img src="images/grup/the2ndlaw.jpg" />
             <div class="crit">
                 <p>"La siguiente gigante del crossover del metal ha llegado" -Q Magazine<br/><br/>
                 <span>5/5 - Artistdirect</span><br/><br/>
                 <span>4.5/5 - Loudwire</span></p>
                 <div class="display">
-                    <a href="https://itunes.apple.com/es/album/hail-to-king-deluxe-version/id672046420" target="_blank">Comprar disco</a>
-                    <img src="images/grup/death.png">
+                    <a href="https://store.muse.mu/es/music/albums/the-2nd-law/the-2nd-law-deluxe-cd-dvd.html" target="_blank">Comprar disco</a>
                 </div>
             </div>
-            <img class="back" src="images/grup/back.jpg" />
+            <img class="back" src="images/grup/discos.jpg" />
+            <div style="clear:both ; padding: 0px"></div>
+        </div>
+        <div id="NM" class="izq">
+            <span class="head">Drones</span>
+            <img src="images/grup/drones.jpg" />
+            <div class="crit">
+                <p>"El tributo definitivo para un amigo caido"<br/> -Metal Hammer<br/><br/>
+                8/10 - Metal Hammer<br/><br/>
+                4/5 - Kerrang!</p>
+                <div class="display">
+                    <a href="https://store.muse.mu/es/music/albums/tbc-cd-1.html" target="_blank">Comprar disco</a>
+                </div>
+            </div>
+            <img class="back" src="images/grup/discos.jpg" />
+            <div style="clear:both ; padding: 0px"></div>
+        </div>
+        <div id="HK" class="der">
+            <span class="head">Simulation Theory</span>
+            <img src="images/grup/simulation-theory.jpg" />
+            <div class="crit">
+                <p>"La siguiente gigante del crossover del metal ha llegado" -Q Magazine<br/><br/>
+                <span>5/5 - Artistdirect</span><br/><br/>
+                <span>4.5/5 - Loudwire</span></p>
+                <div class="display">
+                    <a href="https://store.muse.mu/es/music/albums/simulation-theory-deluxe-cd-32.html" target="_blank">Comprar disco</a>
+                </div>
+            </div>
+            <img class="back" src="images/grup/discos.jpg" />
             <div style="clear:both ; padding: 0px"></div>
         </div>
         <div style="clear:both ; padding: 0px"></div>
     </div>
+    <footer class="pie">
+        <div class="logo">
+            <a href="https://store.muse.mu/es/" target="_blank"><img src="images/grup/logomuse.png" alt="Logo de Muse" width="auto" height="30px"></a>
+        </div>
+        <div class="datos">
+            <div>&copy; 2021 Christian García - 1º DAM-DAW Proyecto Integrador Web - CENEC Málaga</a></div>
+        </div>
+
+    </footer>
+    <script src="login.js"></script>
 </body>
 </html>
