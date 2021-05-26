@@ -1,8 +1,14 @@
+<!--
+Web o pagina: Proyecto Final 1º DAM
+Autor: Christian García Cózar
+Fecha: Junio 2021
+-->
 <head>
+	<title>M U S E</title>
     <link rel="stylesheet" type="text/css" href="grupomusica.css">
     <script src="login.js"></script>
 </head>
-<body>
+<body onload="controlar()">
 	<div class="login">
 		<div class="login-screen">
 			<div class="app-title">
@@ -10,23 +16,18 @@
 			</div>
 
 			<div class="login-form">
-				<div class="control-group">
-				<input type="text" class="login-field" value="" placeholder="Usuario" id="login-name">
-				<label class="login-field-icon fui-user" for="login-name"></label>
-				</div>
-
-				<div class="control-group">
-				<input type="password" class="login-field" value="" placeholder="Contraseña" id="login-pass">
-				<label class="login-field-icon fui-lock" for="login-pass"></label>
-				</div>
-
-				<input class="btn btn-primary btn-large btn-block" href="#" value="login" type="button" onclick="leerXML()" id="login-field">
+				<form method="GET" id="ingresar" name="miFormulario" action="index.html" onSubmit="return intentar()">
+					<label for="apellido">Usuario:</label>
+					<input type="text" id="usr" name="formUsuario" required><br>
+					<label for="apellido">Clave:</label>
+					<input type="password" id="clv" name="formClave" required><br>
+					<input type="submit" value="INGRESAR">
 				<a class="login-link" href="#">¿Olvidaste la contraseña?</a>
                 <div class="control-group">
                     <a href="index.html" id="volver">Volver a la página inicial</a>
                 </div>
+			</form>
 			</div>
 		</div>
 	</div>
-    <script src="login.js"></script>
 </body>
